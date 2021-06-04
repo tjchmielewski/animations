@@ -54,9 +54,15 @@
 
 .confetti {
   overflow: visible;
+  margin: 0 auto;
   height: 100%;
-  text-align: center;
-  width: 100%;
+  width: 100vw;
+}
+
+.stripes {
+  width: 100vw;
+  height: 500px;
+  background-color: black;
 }
 
 @keyframes App-logo-spin {
