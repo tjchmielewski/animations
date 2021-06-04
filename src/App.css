@@ -27,14 +27,29 @@
 .App-link {
   color: #61dafb;
 }
-
+.boltContainer{
+  width: 700px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 50px;
+}
 .bolt {
   height: 173px;
   transform: rotate(40deg);
+  float: right;
+}
+.warning {
+  font-size: 60px;
+  font-weight: 900;
 }
 .bolt2 {
   height: 173px;
   transform: scaleX(-1) rotate(40deg);
+  float: left;
+}
+
+.star1 {
+  height: 200px;
 }
 
 @keyframes App-logo-spin {
